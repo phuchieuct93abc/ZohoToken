@@ -1,0 +1,17 @@
+<ol>
+<li>Step 1: Access <a href="https://api-console.zoho.eu/" target="_blank">developer console</a></li>
+<li>Create a "Self client" </li>
+<li>COpy scope: ZohoCRM.users.all,ZohoCRM.org.all,ZohoCRM.settings.all,ZohoCRM.modules.all,ZohoCRM.bulk.all,ZohoCRM.coql.read</li>
+<li>generate a token and past it here: <input [(ngModel)]="code"/></li>
+
+<li>client id<input [(ngModel)]="clientId"/></li>
+
+<li>secret <input [(ngModel)]="clientSecret"/></li>
+
+<li>redirect <input [(ngModel)]="redirectUrl"/></li>
+
+
+
+<button (click)="submit()">Submit</button>
+</ol>
+
